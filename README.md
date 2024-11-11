@@ -390,9 +390,15 @@ The purpose of this assignment is to understand and design data solutions for va
       ![image](https://github.com/user-attachments/assets/7ba0a440-9bab-4759-9565-2e0dbc540953)
 
 
-     ## Advantages of Event Hub and Stream Analytics :
+     # Advantages of Event Hub and Stream Analytics
 
-    **TBD**
+| Features                | Azure Event Hub                                                                 | Azure Stream Analytics                                                                                  |
+|-------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| **Real-Time Data Ingestion** | Enables large-scale real-time data ingestion from multiple sources.                    | Processes data in real time, allowing for instant actions based on live data streams.                   |
+| **Scalability**          | Handles millions of events per second, highly scalable.                                 | Automatically scales based on data stream size.                                                         |
+| **Integration**          | Seamlessly integrates with Azure services like Stream Analytics, Synapse, and Data Lake. | Integrates well with Event Hub and can output data to Synapse, SQL DB, Data Lake, etc.                  |
+
+
 
 
 ## Conclusion <a name="conclusion"></a>
